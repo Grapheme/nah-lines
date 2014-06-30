@@ -19,10 +19,10 @@ $route['load-floor-rent'] = "ajax_interface/loadFloorRent";
 /*************************************************** USERS INTRERFACE ***********************************************/
 /*************** pages ****************/
 $route['admin'] = "guests_interface/loginIn";
-$route['rent'] = "guests_interface/rent";
+$route['arenda-ofisa-ot-sobstvennika'] = "guests_interface/rent";
 $route['arenda_ofisov_rostov'] = "guests_interface/page";
 $route['contacts'] = "guests_interface/page";
-$route['structure'] = "guests_interface/page";
+$route['arenda-ofica-v-rostove'] = "guests_interface/page";
 
 $route['log-off'] = "guests_interface/logoff";
 /********** loading image *************/

@@ -2,7 +2,7 @@
 if($this->uri->uri_string() == ''):
 	$uri = 'home';
 else:
-	$uri = to_underscore($this->uri->uri_string());
+	$uri = to_underscore(uri_string());
 endif;?>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />

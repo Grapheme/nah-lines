@@ -10,9 +10,9 @@
 			<div class="span6">
 				<ul class="menu clearfix">
 					<li><a data-active="home" href="<?=site_url('');?>">О ЦЕНТРЕ</a></li>
-					<li><a data-active="rent" href="<?=site_url('rent');?>">АРЕНДА</a></li>
+					<li><a data-active="arenda-ofisa-ot-sobstvennika" href="<?=site_url('arenda-ofisa-ot-sobstvennika');?>">АРЕНДА</a></li>
 					<li><a data-active="contacts" href="<?=site_url('contacts');?>">КОНТАКТЫ</a></li>
-					<li><a data-active="structure" href="<?=site_url('structure');?>">ИНФРАСТРУКТУРА</a></li>
+					<li><a data-active="arenda-ofica-v-rostove" href="<?=site_url('arenda-ofica-v-rostove');?>">ИНФРАСТРУКТУРА</a></li>
 				</ul>
 			</div>
 			<div class="span2">
