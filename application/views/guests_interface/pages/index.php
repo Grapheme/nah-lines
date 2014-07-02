@@ -22,7 +22,7 @@
 						</div>
 						<div id="orange-1">
 							<div class="text-white">
-								<a href="<?=site_url('rent');?>">СВОБОДНЫЕ ПЛОЩАДИ <img class="small-arrow" src="<?=site_url('img/arr_right.png');?>"></a>
+								<a href="<?=site_url('arenda-ofisa-ot-sobstvennika');?>">СВОБОДНЫЕ ПЛОЩАДИ <img class="small-arrow" src="<?=site_url('img/arr_right.png');?>"></a>
 							</div>
 						</div>
 					</div>
