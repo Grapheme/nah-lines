@@ -34,7 +34,7 @@ body:before {
 
 
 .logo, .logo:hover { display: block; text-decoration: none; color: #253939; }
-.logo h1 { font-size: 2em; font-weight: bold; margin: 0 0 0 -20px; line-height: 20px; text-align: center; }
+.logo .h1 { font-size: 2em; font-weight: bold; margin: 0 0 0 -20px; line-height: 20px; text-align: center; }
 .logo #logo_text { text-align: center; margin: 5px 0 0 -20px; }
 
 h1, h2, h3, h4 { font-size: 1.3em; font-weight: bold; margin: 0; line-height: 25px; }

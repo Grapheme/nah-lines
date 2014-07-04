@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<a href="<?=site_url('');?>" class="span4 logo">
-				<h1>Нахичеванские линии</h1>
+				<div class="h1">Нахичеванские линии</div>
 				<div class="text" id="logo_text">
 					торгово-офисный центр
 				</div>

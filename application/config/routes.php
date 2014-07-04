@@ -23,6 +23,7 @@ $route['arenda-ofisa-ot-sobstvennika'] = "guests_interface/rent";
 $route['arenda_ofisov_rostov'] = "guests_interface/page";
 $route['contacts'] = "guests_interface/page";
 $route['arenda-ofica-v-rostove'] = "guests_interface/page";
+$route['ofisi-v-arendu-rostov'] = "guests_interface/page";
 
 $route['log-off'] = "guests_interface/logoff";
 /********** loading image *************/
