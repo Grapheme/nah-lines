@@ -24,6 +24,13 @@ $route['arenda_ofisov_rostov'] = "guests_interface/page";
 $route['contacts'] = "guests_interface/page";
 $route['arenda-ofica-v-rostove'] = "guests_interface/page";
 $route['ofisi-v-arendu-rostov'] = "guests_interface/page";
+/********************************************************************************************************************/
+$route['arenda-v-biznes-centre'] = "guests_interface/page";
+$route['pomechenie-v-arendu-pod-ofis'] = "guests_interface/page";
+$route['snimu-v-arendu-pomechenie-pod-ofis'] = "guests_interface/page";
+$route['pomechenie-v-arendu-ot-sobstvennika'] = "guests_interface/page";
+/********************************************************************************************************************/
+
 
 $route['log-off'] = "guests_interface/logoff";
 /********** loading image *************/

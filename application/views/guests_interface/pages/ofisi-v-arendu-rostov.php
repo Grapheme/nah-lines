@@ -46,4 +46,3 @@
 	<?php $this->load->view("guests_interface/includes/metrika");?>
 </body>
 </html>
-<a href="http://newyork-bar.ru/">New York</a>
