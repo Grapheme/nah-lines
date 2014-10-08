@@ -29,6 +29,10 @@ $route['arenda-v-biznes-centre'] = "guests_interface/page";
 $route['pomechenie-v-arendu-pod-ofis'] = "guests_interface/page";
 $route['snimu-v-arendu-pomechenie-pod-ofis'] = "guests_interface/page";
 $route['pomechenie-v-arendu-ot-sobstvennika'] = "guests_interface/page";
+$route['pomechenie-v-arendu'] = "guests_interface/page";
+/********************************************************************************************************************/
+$route['arenda-pomecheniya-fizicheskim-licom'] = "guests_interface/page";
+$route['sdacha-arendi-pomecheniyha'] = "guests_interface/page";
 /********************************************************************************************************************/
 
 
