@@ -9,7 +9,13 @@
 	<tr class="<?=(($i+1)&1)?'odd-tr':'even-tr';?>">
 		<td class="number-column"><?=$rent[$i]['office']?></td>
 		<th class="area-column"><?=$rent[$i]['square']?></th>
-		<th class="price-column"><?=number_format($rent[$i]['price'],2,'.',' ');?></th>
+		<th class="price-column">
+		<?php if($rent[$i]['price'] > 0):?>
+			<?=number_format($rent[$i]['price'],2,'.',' ');?>
+		<?php else: ?>
+			Договорная
+		<?php endif;?>
+		</th>
 		<td class="status-column"><?=$rent[$i]['status']?></td>
 	</tr>
 <?php endfor;?>
