@@ -49,6 +49,7 @@ class Rent extends MY_Model{
 		
 		$this->db->select('floor');
 		$this->db->group_by('floor');
+		$this->db->order_by('office');
 		$query = $this->db->get_where('rent',array('corps'=>$corps));
 		$data = $query->result_array();
 		if($data) return $data;
@@ -57,6 +58,7 @@ class Rent extends MY_Model{
 	
 	function readRentCorpFloor($corps,$floor){
 		
+		$this->db->order_by('office');
 		$query = $this->db->get_where('rent',array('corps'=>$corps,'floor'=>$floor));
 		$data = $query->result_array();
 		if($data) return $data;
